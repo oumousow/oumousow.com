@@ -1,9 +1,14 @@
 {
   "name": "oumousow.com",
   "version": "1.0.0",
-  "description": "My personal site",
+  "description": "Bienvenu sur ma page",
   "author": "Oumou Sow",
   "private": true,
+  "config": {
+    "nuxt": {
+      "port": "3001"
+    }
+  },
   "scripts": {
     "dev": "cross-env NODE_ENV=development nodemon server/index.js --watch server",
     "build": "nuxt build",

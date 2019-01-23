@@ -1,15 +1,17 @@
 <template>
+<div class="effet">
   <section class="container">
     <div>
-      <logo />
+      <!--<logo />-->
       <h1 class="title">
-        oumousow.com
+        Oumou Sow
       </h1>
       <h2 class="subtitle">
-        My personal site
+        Bienvenue sur mon site 
       </h2>
     </div>
   </section>
+  </div>
 </template>
 
 <script>
@@ -23,9 +25,13 @@ export default {
 </script>
 
 <style>
+.effet
+{
+  background-color:rgba(0, 0, 0, 0.4);
+}
 .container {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 93vh;
   display: flex;
   justify-content: center;
   align-items: center;
