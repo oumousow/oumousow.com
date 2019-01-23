@@ -61,7 +61,7 @@
             </div>
         </b-card>
         <b-card title="Écriture(Nouvelles)"
-                :img-src="plume"
+                :img-src="Plume"
                 img-alt="Img"
                 img-top>
             <p class="card-text">Dépuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-).<br>
@@ -91,7 +91,7 @@
 
 <script>
 import pl from '../assets/pl.png';
-import plume from '../assets/plume.jpg';
+import Plume from '../assets/Plume.jpg';
 import innovafrq from '../assets/innovafrq.jpg';
 export default {
 name:'projets',
@@ -102,7 +102,7 @@ components:
 data (){
   return{
     pl:pl,
-    plume:plume,
+    Plume:Plume,
     innovafrq:innovafrq,
   }
 }
@@ -114,6 +114,6 @@ data (){
 {
   padding-left: 20px;
   padding-right: 20px;
-
+  background-color: white;
 }
 </style>
