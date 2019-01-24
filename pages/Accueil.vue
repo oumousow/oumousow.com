@@ -18,7 +18,7 @@
       <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
         <b-card-body>
           <p class="card-text">
-            I start opened because <code>visible</code> is <code>true</code>
+           <!-- I start opened because <code>visible</code> is <code>true</code>-->
           </p>
           <p class="card-text">
             {{ text }}
@@ -80,30 +80,20 @@ export default
  data () {
     return {
       text: `
-        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry
-        richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor
-        brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon
-        tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
-        assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore
-        wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
-        vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic
-        synth nesciunt you probably haven't heard of them accusamus labore VHS.
+        Html, css
       `,
       msg:
       
       `
-Adja, je suis en satge chez Mobennnn 
-
+Boostrap
       `,
       sms:
       `
-        lmkf    jphgbn  fjh bifegvç oefja^rué'yàtg  uobzpfijhobutg!àhzçv jytyéà'!çru^yg"g!à     !tg tçè!    'yrpojmgheripg
-
+Vue js, Boostrapsvue
       `,
       mes:
       `
-        afjpzruog   !rp&u"rày!éhruogjoz^g   !y""ç!téji  bgug    çè"ty!àtjgbkgiyeg!"èty'ç"(gt hogohgipketho!qçèytepçgojrnmkbb " y!tphot)
-
+Nuxt, Déployement sur Heruku via github
       `
 
     }
