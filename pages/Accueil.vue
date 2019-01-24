@@ -115,7 +115,7 @@ Adja, je suis en satge chez Mobennnn
 <style>
 .accueil
 {
-  background-color:rgba(0, 0, 0, 0.5);
+  background-color:rgba(0, 0, 0,0.6);
 }
 .container {
   margin: 0 auto;

@@ -101,11 +101,11 @@ components:
 <!-- b-form-1.vue -->
 
 <style>
- .form
+.form
 {
 background-color: rgba(0, 0, 0, 0.4);
- margin: 70px;
- padding: 50px;
+ margin: 10px;
+ padding: 10px;
 
 }
 
