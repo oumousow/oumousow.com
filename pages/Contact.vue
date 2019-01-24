@@ -12,7 +12,6 @@
 
 <script>
 import Form from '@/components/Form'
-import image1 from '@/components/Form'
 export default 
 {  
   name: 'contact',
