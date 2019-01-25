@@ -39,7 +39,7 @@ Je m’appelle Oumou Sow, je suis en école d’ingénieur à l’école Central
                 text-variant="black">
             <blockquote class="card-blockquote">
                 <p>
-                   Mes dernières activités associatives
+                   Mes dernières activités associatives et curiosité!
                 </p>
                 <footer>
                     <small>Someone famous in <cite title="Source Title">Source Title</cite></small>
@@ -58,10 +58,13 @@ Je m’appelle Oumou Sow, je suis en école d’ingénieur à l’école Central
                 <router-link to="/projects/barinta"> <b-button variant="primary">En savoir plus</b-button> </router-link>
             </p>
         </b-card>
-        <b-card header="Quote">
+        <b-card header="Ma vie amoureuse">
             <blockquote class="blockquote mb-0">
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+                <p>
+                <img src="../assets/coeur1.png" width="40px" alt="Nouveau !" />
+                </p>
+                <p> Hummm, très intéressante, d'ailleurs j'écris des choses là-dessus, alors reveniens plus tard et tu sauras!!! :-)</p>
+                <footer class="blockquote-footer">L'amour est à la fois le paradis et l'enfer: Eh oui c'est bien là sa magie et son mystère <br> <cite title="Source Title">Oumou Sow</cite></footer>
             </blockquote>
         </b-card>
         <b-card title="Campagne de communication du forum Find Africa"
@@ -70,29 +73,32 @@ Je m’appelle Oumou Sow, je suis en école d’ingénieur à l’école Central
                 img-alt="image"
                 img-top>
             <p class="card-text">
-                This card has supporting text below as a natural lead-in to additional content.
-            </p>
+Le Find Africa est un forum annuel que je coordonne pour l'association CRD depuis 2016. On y aborde de questions essentielles sur l'entreprenariat de la jeunesse africaine, le développe et la paix en Afrique. 
+Il est annimé chaque année par de brillants conférenciers.</p>
             <small class="text-muted">Last updated 3 mins ago</small>
         </b-card>
         
-       
+       <!--
         <b-card img-src="https://picsum.photos/400/400/?image=41"
                 img-fluid
                 img-alt="image"
                 overlay>
         </b-card>
-        <b-card img-src="https://picsum.photos/400/200/?image=41"
+         -->
+        <b-card :img-src="famille"
                 img-fluid
                 img-alt="image"
                 img-top>
             <p class="card-text">
-                This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content
-                than the first.
+                J'ai la chance d'appartenir à une incroyable et merveilleuse famille nombreuse. En effet,j'ai deux petits frères jumeaux et deux petites soeurs. <br>
+                Alors bien-sûre parfois j'ai besoin de calme, ou d'être toute simplement seule juste un instant, mais je me suis
+                rendue compte que toute la beauté et la richesse de ma famille se trouve là. On ne se sent jamais seul chez moi, on se sent toujours fort et des solutions à tous les problèmes.
             </p>
             <div slot="footer">
-                <small class="text-muted">Footer Text</small>
+                <small class="text-muted">Ma merveilleuse famille</small>
             </div>
         </b-card>
+      
     </b-card-group>
 </div>
 
@@ -103,12 +109,16 @@ Je m’appelle Oumou Sow, je suis en école d’ingénieur à l’école Central
 <script>
 import imageBarinta from '../assets/imageBarinta.jpeg';
 import imageFind from '../assets/imageFind.jpeg';
+import famille from '../assets/famille.jpg';
+
 export default {
   name:'about',
   data () {
     return {
       imageBarinta:imageBarinta,
       imageFind: imageFind,
+      famille:famille,
+    
     }
   }
 }
@@ -122,4 +132,5 @@ export default {
     width: 100%;
    
 }
+
 </style>

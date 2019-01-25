@@ -4,24 +4,24 @@
   <div class="form">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="exampleInputGroup1"
-                    label="Email address:"
+                    label="Addresse email:"
                     label-for="exampleInput1"
                     description="We'll never share your email with anyone else.">
         <b-form-input id="exampleInput1"
                       type="email"
                       v-model="form.email"
                       required
-                      placeholder="Enter email">
+                      placeholder="Entrer votre mail">
         </b-form-input>
       </b-form-group>
       <b-form-group id="exampleInputGroup2"
-                    label="Your Name:"
+                    label="Votre nom:"
                     label-for="exampleInput2">
         <b-form-input id="exampleInput2"
                       type="text"
                       v-model="form.name"
                       required
-                      placeholder="Enter name">
+                      placeholder="Entrer votre nom">
         </b-form-input>
       </b-form-group>
       <!--<b-form-group id="exampleInputGroup3"
@@ -34,8 +34,9 @@
         </b-form-select>
       </b-form-group>-->
       <b-form-textarea id="textarea1"
+                     label="votre message:"
                      v-model="text"
-                     placeholder="Enter something"
+                     placeholder="Entrer votre message"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
