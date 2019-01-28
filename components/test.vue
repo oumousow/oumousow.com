@@ -1,26 +1,27 @@
 <template>
 <div>
+  
   <div class="form">
     <b-form @submit="onSubmit" @reset="onReset" v-if="show">
       <b-form-group id="exampleInputGroup1"
-                    label="Email address:"
+                    label="Addresse email:"
                     label-for="exampleInput1"
                     description="We'll never share your email with anyone else.">
         <b-form-input id="exampleInput1"
                       type="email"
                       v-model="form.email"
                       required
-                      placeholder="Enter email">
+                      placeholder="Entrer votre mail">
         </b-form-input>
       </b-form-group>
       <b-form-group id="exampleInputGroup2"
-                    label="Your Name:"
+                    label="Votre nom:"
                     label-for="exampleInput2">
         <b-form-input id="exampleInput2"
                       type="text"
                       v-model="form.name"
                       required
-                      placeholder="Enter name">
+                      placeholder="Entrer votre nom">
         </b-form-input>
       </b-form-group>
       <!--<b-form-group id="exampleInputGroup3"
@@ -33,8 +34,9 @@
         </b-form-select>
       </b-form-group>-->
       <b-form-textarea id="textarea1"
+                     label="votre message:"
                      v-model="text"
-                     placeholder="Enter something"
+                     placeholder="Entrer votre message"
                      :rows="3"
                      :max-rows="6">
     </b-form-textarea>
@@ -46,17 +48,20 @@
         </b-form-checkbox-group>
       </b-form-group>-->
       <br>
-      <div class="bouton">
       <b-button type="submit" variant="primary">Submit</b-button>
       <b-button type="reset" variant="danger">Reset</b-button>
-      </div>
     </b-form>
   </div>
 </div>
 </template>
 
 <script>
+import Nav from '@/components/Nav.vue'
 export default {
+components: 
+{
+ 
+},
   data () {
     return {
        name:'form',
@@ -94,9 +99,15 @@ export default {
 }
 </script>
 
+<!-- b-form-1.vue -->
+
 <style>
-.bouton
+.form
 {
-  padding-left: 600px;
+background-color: rgba(0, 0, 0, 0.4);
+ margin: 10px;
+ padding: 10px;
+
 }
+
 </style>

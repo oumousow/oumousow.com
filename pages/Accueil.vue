@@ -47,6 +47,7 @@
           <p class="card-text">
             {{ text }}
           </p>
+          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -59,6 +60,7 @@
           <p class="card-text">
             {{ msg }}
           </p>
+          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -71,6 +73,7 @@
           <p class="card-text">
             {{sms}}
           </p>
+          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -85,6 +88,7 @@
           <p class="card-text">
             {{ mes }}
           </p>
+          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -176,8 +180,8 @@ Nuxt, Déployement sur Heruku via github
 .flotte
 {
   float:left;
-  padding: 10px;
-  margin-top: 400px;
+  padding: 0px;
+  margin-top: 300px;
 }
 .page1
 {

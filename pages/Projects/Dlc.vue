@@ -89,14 +89,13 @@ Hadès reprit sa brillante carrière politique et fut élu le plus jeune parl
 <script>
 import Nav from '@/components/Nav.vue'
 export default {
-    name:'dlc',
-components: 
-{
-
-}  
+    name:'dlc' 
 }
 </script>
 
 <style>
-
+.dlc
+{
+    background-color: white;
+}
 </style>

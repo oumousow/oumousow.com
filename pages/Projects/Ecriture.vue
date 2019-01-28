@@ -12,7 +12,8 @@
             <p class="card-text">c'est une nouvelle qui a emporté le premier prix du concours d'achères en 2016. </p>
             <p class="card-text">La nouvelle parle d'un jeune homme qui part faire ces études en France et qui découvre un nouveau monde où sa vie va totalement changer</p>
            
-           <router-link to="/projects/Brinta"> <b-button variant="primary">lire</b-button> </router-link>
+            <router-link to="/projects/dlc"><b-button variant="primary">Lire</b-button></router-link>
+         <!--  <b-button variant="primary">   </b-button> -->
         </b-card>
         <b-card title="Title"
                 header-tag="header"
@@ -30,10 +31,8 @@
 </template>
 
 <script>
-import Nav from '@/components/Nav.vue'
 export default {
-    
-   name:'ecriture',
+name:'ecriture',
 components: 
 {
 
@@ -43,5 +42,8 @@ components:
 
 
 <style>
-  
+.ecriture
+{
+    background-color: white;
+} 
 </style>
