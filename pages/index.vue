@@ -9,6 +9,9 @@
       <h2 class="subtitle">
         Bienvenue sur mon site 
       </h2>
+      <h4 class="soustitre">
+        Merci à <a href="https://nouhoumtraore.co">Nouhoum Traoré </a> et à toute son <a href="https://www.linkedin.com/company/moben-technology/about/">équipe</a>
+      </h4>
     </div>
   </section>
   </div>
@@ -56,6 +59,12 @@ export default {
   /*#526488*/
   word-spacing: 5px;
   padding-bottom: 15px;
+}
+.soustitre
+{
+   color:white;
+  font-weight: 300;
+  
 }
 
 .links {

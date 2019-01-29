@@ -1,0 +1,26 @@
+[
+    {
+      "id": "barinta",
+      "title": "Barinta",
+      "image": "../assets/pl.png",
+      "cover": "assets/pl.png",
+      "description": "Barinta est une association fondée en 2017 par Cheick Mahady Sissoko et moi même. Ella a pour objetif de soutenir l'éducation des enfants dans les zones défavorisées de l'Afrique de l'Ouest…",
+      "year": "2019"
+    },
+    {
+        "id": "ecriture",
+        "title": "Ecriture",
+        "image": "../../assets/Plume.jpg",
+        "cover": "../../assets/Plume.jpg",
+        "description": "épuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-).…",
+        "year": "2019"
+      },
+      {
+        "id": "paa",
+        "title": "Plan d'Action pour l'Afrique",
+        "image": "../../assets/innovafrq.jpg",
+        "cover": "../../assets/innovafrq.jpg",
+        "description": "L'Afrique est probablement le continent le plus riche en terme de matières premières dans le monde…",
+        "year": "2019"
+      }
+  ]

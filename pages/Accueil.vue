@@ -1,5 +1,6 @@
 <template>
 <div class="accueil">
+  <div class="largeur">
   <section class="container">
     <div>
    <!--   <h4 class="title">
@@ -100,6 +101,7 @@
      <img src="../assets/babyboss2.png" width="150px" alt="Nouveau !" />
     </div>
   </section>
+  </div>
   <!--<section class="flotte">
  <img src="../assets/babyboss2.png" width="70px" alt="Nouveau !" />
   </section>-->
@@ -137,6 +139,11 @@ Nuxt, Déployement sur Heruku via github
 </script>
 
 <style>
+.largeur
+{
+  padding-left: 10px;
+  
+}
 .accueil
 {
   background-color:rgba(0, 0, 0,0.6);
@@ -145,10 +152,11 @@ Nuxt, Déployement sur Heruku via github
   /*margin: 10px;*/
   margin-right: 10px;
   margin-left: 160px;
-  width: 2000px;
+  width: 100%;
   /**0 auto*/
   min-height: 93vh;
   display: flex;
+  position:absolute;
   justify-content: center;
   align-items: center;
   text-align: center;
