@@ -9,8 +9,7 @@
 </template>
 
 <script>
-  import ProjectCard from "../components/ProjectCard";
-
+  import ProjectCard from "@/components/project/ProjectCard";
   export default {
     components: {ProjectCard},
     props: {
@@ -43,6 +42,6 @@
     flex-direction: row;
     grid-gap: 5rem;
     grid-template-columns: auto auto auto;
-    padding-left: 7rem;
+    padding-left: -2rem;
   }
 </style>

@@ -2,24 +2,35 @@
     {
       "id": "barinta",
       "title": "Barinta",
-      "image": "../assets/pl.png",
-      "cover": "assets/pl.png",
+      "image": "http://localhost:3001/pl.png",
+      "cover": "pl.png",
       "description": "Barinta est une association fondée en 2017 par Cheick Mahady Sissoko et moi même. Ella a pour objetif de soutenir l'éducation des enfants dans les zones défavorisées de l'Afrique de l'Ouest…",
-      "year": "2019"
+      "year": "2019",
+      "detail":[
+        {
+          "id": "jason_momoa",
+        "name": "Jason Momoa",
+        "image": "http://fr.web.img5.acsta.net/c_215_290/pictures/17/11/16/14/08/4596459.jpg",
+        "age": "39 ans",
+        "nationality": "Américain",
+        "biography": "Né à Hawaï, Joseph Jason Namakaeha Momoa a vécu une partie de son enfance dans l'Iowa. Il est encore collégien lorsqu'il retourne sur son île natale et y finit sa scolarité. Momoa se lance ensuite dans une carrière de mannequin. Le succès lui sourit puisqu'en 1999, il est élu top-modèle masculin de l'année à Hawaï. Son impressionnante musculature lui vaut d'être recruté la même année pour jouer dans une série télévisée américaine, et pas n'importe laquelle puisqu'il s'agit d'Alerte à Malibu. Le néo-acteur y interprète le personnage de Jason Ioane pendant deux ans. Jason reprend ensuite le même rôle en 2004 pour les besoins du téléfilm Mariage à Hawaï de Douglas Schwartz, qui met en scène les personnes de la série-culte dans une situation délocalisée à Hawaï. Momoa continue de travailler pour le petit écran puisqu'il apparaît dans d'autres feuilletons tels que Stargate : Atlantis où il in..."
+    
+        }
+      ]
     },
     {
         "id": "ecriture",
         "title": "Ecriture",
-        "image": "../../assets/Plume.jpg",
-        "cover": "../../assets/Plume.jpg",
-        "description": "épuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-).…",
+        "image": "http://localhost:3001/Plume.jpg",
+        "cover": "http://localhost:3001/Plume.jpg",
+        "description": "Dépuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-).…",
         "year": "2019"
       },
       {
         "id": "paa",
         "title": "Plan d'Action pour l'Afrique",
-        "image": "../../assets/innovafrq.jpg",
-        "cover": "../../assets/innovafrq.jpg",
+        "image": "http://localhost:3001/Afrique.png",
+        "cover": "http://localhost:3001/Afrique.png",
         "description": "L'Afrique est probablement le continent le plus riche en terme de matières premières dans le monde…",
         "year": "2019"
       }
