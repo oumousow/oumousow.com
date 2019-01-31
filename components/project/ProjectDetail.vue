@@ -58,7 +58,7 @@
     flex-direction: row;
     grid-gap: .5rem;
     grid-template-columns: auto auto auto;
-    margin-top: 19rem;
+    margin-top: 2rem;
     padding-left: 2.5rem;
   }
 

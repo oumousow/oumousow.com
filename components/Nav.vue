@@ -15,7 +15,7 @@
 
       <b-nav-item><router-link to="/accueil">Accueil</router-link></b-nav-item>
       <b-nav-item><router-link to="/about">À Propos</router-link></b-nav-item>
-      <b-nav-item><router-link to="/Projects">Projets</router-link></b-nav-item>
+      <b-nav-item><router-link to="/projects">Projets</router-link></b-nav-item>
       <b-nav-item><router-link to="/contact">Contacter</router-link></b-nav-item>
         <!-- Navbar dropdowns -->
         <!--<b-nav-item-dropdown text="Lang" right>
