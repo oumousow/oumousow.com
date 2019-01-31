@@ -4,7 +4,7 @@
     "title": "Barinta",
     "image": "http://localhost:3000/pl.png",
     "cover": "http://localhost:3000/pl.png",
-    "description": "Barinta est une association fondée en 2017 par Cheick Mahady Sissoko et moi même. Ella a pour objetif de soutenir l'éducation des enfants dans les zones défavorisées de l'Afrique de l'Ouest…",
+    "description": "Barinta est une association fondée en 2017 par Cheick Mahady Sissoko et moi même. Ella a pour objetif de soutenir l'éducation des enfants dans les zones défavorisées de l'Afrique de l'Ouest",
     "year": "2017",
     "casting": [
       {
@@ -13,7 +13,7 @@
         "image": "http://localhost:3000/imbar.jpg",
         "age": "2018",
         "nationality": "Mali",
-        "biography": "L'association Barinta soutient cette année un petit collège de 183 élèves qui se trouve dans le cercle de Bafoulabé, dans la commune de Mahina. Ce dernier sera le premier à bénéficier de notre programme : LE 3 JANVIER 2018. Le collège compte 3 salles de classe de trois niveaux différents : - La classe des élèves de septième année compte 48 élèves  - Celle des élèves de huitième année compte 36 élèves. - Et enfin celle des élèves de neuvième année (brevet de fin d’étude du collège) de 99 élèves. Ce sureffectif fait que les élèves se retrouvent à être jusqu'à quatre élèves par table ce qui rend l'encadrement très difficile. Etant convaincus de la pertinence d’une action d’aide scolaires, nous avons contacté le directeur de l’école de Diallola pour confirmer nos préoccupations concernant les conditions d’études des enfants. Le directeur nous a fait part des conditions difficiles citées plus haut..."
+        "biography": "L'association Barinta soutient cette année un petit collège de 183 élèves qui se trouve dans le cercle de Bafoulabé, dans la commune de Mahina. Ce dernier sera le premier à bénéficier de notre programme : LE 3 JANVIER 2018. Le collège compte 3 salles de classe de trois niveaux différents : - La classe des élèves de septième année compte 48 élèves  - Celle des élèves de huitième année compte 36 élèves. - Et enfin celle des élèves de neuvième année (brevet de fin d’étude du collège) de 99 élèves. Ce sureffectif fait que les élèves se retrouvent à être jusqu'à quatre élèves par table ce qui rend l'encadrement très difficile. Etant convaincus de la pertinence d’une action d’aide scolaires, nous avons contacté le directeur de l’école de Diallola pour confirmer nos préoccupations concernant les conditions d’études des enfants. Le directeur nous a fait part des conditions difficiles citées plus haut"
       },
       {
         "id": "karamokola",
@@ -21,7 +21,7 @@
         "image": "http://localhost:3000/imkar.jpg",
         "age": "2019",
         "nationality": "Mali",
-        "biography": "Cette année, Barinta compte soutenir l’école fondamentale de Karamokola dans la région de Koulikoro (Cercle de Kati) qui comprend le cycle élémentaire et le collège et qui compte 277 élèves et un corps professoral de 11enseignants.Cette école totalement marginalisée a besoin d’énormes aides, aussi bien en ressources scolaires, en mobiliers scolaires, en infrastructures qu’en hygiène pour les enfants, dont le contenu est détaillé ci- dessous par le directeur d’école...."
+        "biography": "Cette année, Barinta compte soutenir l’école fondamentale de Karamokola dans la région de Koulikoro (Cercle de Kati) qui comprend le cycle élémentaire et le collège et qui compte 277 élèves et un corps professoral de 11enseignants.Cette école totalement marginalisée a besoin d’énormes aides, aussi bien en ressources scolaires, en mobiliers scolaires, en infrastructures qu’en hygiène pour les enfants, dont le contenu est détaillé ci- dessous par le directeur d’école"
       }
     ]
   },
@@ -30,7 +30,7 @@
     "title": "Écriture",
     "image": "http://localhost:3000/plume.png",
     "cover": "http://localhost:3000/plume.png",
-    "description": "Dépuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-)…",
+    "description": "Dépuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-)",
     "year": "2016",
     "casting": [
       {
@@ -39,7 +39,7 @@
         "image": "http://localhost:3000/dlc.jpg",
         "age": "2016",
         "nationality": "Sénégal",
-        "biography": "Il y avait au Sénégal, dans la région de Saint Louis, un jeune garçon qui respectait très profondément ses parents et les aimait. Il était de grande taille, avec un teint foncé qui brillait sous le soleil. Avant sa naissance, ses parents, Viviane et Senghor, faisaient partie des familles privilégiées, les plus riches du pays. Saint Louis fut la première ville fondée par les européens en Afrique Occidentale, centre de commerce incontournable pour l’or, la gomme arabique, l’ivoire et les esclaves. Ses parents servaient d’interprètes entre les grands commerçants Sénégalais et les colons, les Blancs. Ils ne manquaient de rien et vivaient dans une grande maison richement ornée.Cependant, cette aisance dura jusqu’au moment où de grands intellectuels épris de liberté décidèrent d’agir pour l’indépendance du Sénégal. Ce mouvement était dirigé par Léopold Sédar Senghor qui devint le premier président du Sénégal libre en 1960. Et malheureusement pour Senghor et Viviane, leurs protecteurs Blancs décidèrent de rentrer en France. Tous leurs biens mobiliers, bateaux, charrettes, revinrent à l’Etat Sénégalais qui décida de les conserver pour le patrimoine national. Ce fut dans ce contexte de soudaine pauvreté que notre jeune garçon vit le jour cette année-là. En proie à l’obscurité, aux ténèbres et au désespoir, ses parents le prénommèrent Hadès. Au fil des ans, du fait de son air sombre et chagrin mais cependant déterminé, on le surnomma l’Enfant jamais content. Ceci est son histoire..."
+        "biography": "Il y avait au Sénégal, dans la région de Saint Louis, un jeune garçon qui respectait très profondément ses parents et les aimait. Il était de grande taille, avec un teint foncé qui brillait sous le soleil. Avant sa naissance, ses parents, Viviane et Senghor, faisaient partie des familles privilégiées, les plus riches du pays. Saint Louis fut la première ville fondée par les européens en Afrique Occidentale, centre de commerce incontournable pour l’or, la gomme arabique, l’ivoire et les esclaves. Ses parents servaient d’interprètes entre les grands commerçants Sénégalais et les colons, les Blancs. Ils ne manquaient de rien et vivaient dans une grande maison richement ornée.Cependant, cette aisance dura jusqu’au moment où de grands intellectuels épris de liberté décidèrent d’agir pour l’indépendance du Sénégal. Ce mouvement était dirigé par Léopold Sédar Senghor qui devint le premier président du Sénégal libre en 1960. Et malheureusement pour Senghor et Viviane, leurs protecteurs Blancs décidèrent de rentrer en France. Tous leurs biens mobiliers, bateaux, charrettes, revinrent à l’Etat Sénégalais qui décida de les conserver pour le patrimoine national. Ce fut dans ce contexte de soudaine pauvreté que notre jeune garçon vit le jour cette année-là. En proie à l’obscurité, aux ténèbres et au désespoir, ses parents le prénommèrent Hadès. Au fil des ans, du fait de son air sombre et chagrin mais cependant déterminé, on le surnomma l’Enfant jamais content. Ceci est son histoire"
       },
       {
         "id": "aco",
@@ -56,7 +56,7 @@
     "title": "Plan d'Action Pour l'Afrique",
     "image": "http://localhost:3000/Afrique.png",
     "cover": "http://localhost:3000/Afrique.png",
-    "description": "L'Afrique est probablement le continent le plus riche en terme de matières premières dans le monde…",
+    "description": "L'Afrique est probablement le continent le plus riche en terme de matières premières dans le monde",
     "year": "2019",
     "casting": [
       {
