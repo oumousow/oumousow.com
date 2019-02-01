@@ -2,15 +2,15 @@
   {
     "id": "barinta",
     "title": "Barinta",
-    "image": "http://localhost:3000/pl.png",
-    "cover": "http://localhost:3000/pl.png",
+    "image": "http://localhost:3001/pl.png",
+    "cover": "http://localhost:3001/pl.png",
     "description": "Barinta est une association fondée en 2017 par Cheick Mahady Sissoko et moi même. Ella a pour objetif de soutenir l'éducation des enfants dans les zones défavorisées de l'Afrique de l'Ouest",
     "year": "2017",
     "casting": [
       {
         "id": "dialola",
         "name": "École de Dialola",
-        "image": "http://localhost:3000/imbar.jpg",
+        "image": "http://localhost:3001/imbar.jpg",
         "age": "2018",
         "nationality": "Mali",
         "biography": "L'association Barinta soutient cette année un petit collège de 183 élèves qui se trouve dans le cercle de Bafoulabé, dans la commune de Mahina. Ce dernier sera le premier à bénéficier de notre programme : LE 3 JANVIER 2018. Le collège compte 3 salles de classe de trois niveaux différents : - La classe des élèves de septième année compte 48 élèves  - Celle des élèves de huitième année compte 36 élèves. - Et enfin celle des élèves de neuvième année (brevet de fin d’étude du collège) de 99 élèves. Ce sureffectif fait que les élèves se retrouvent à être jusqu'à quatre élèves par table ce qui rend l'encadrement très difficile. Etant convaincus de la pertinence d’une action d’aide scolaires, nous avons contacté le directeur de l’école de Diallola pour confirmer nos préoccupations concernant les conditions d’études des enfants. Le directeur nous a fait part des conditions difficiles citées plus haut"
@@ -18,7 +18,7 @@
       {
         "id": "karamokola",
         "name": "École de Karamokola",
-        "image": "http://localhost:3000/imkar.jpg",
+        "image": "http://localhost:3001/imkar.jpg",
         "age": "2019",
         "nationality": "Mali",
         "biography": "Cette année, Barinta compte soutenir l’école fondamentale de Karamokola dans la région de Koulikoro (Cercle de Kati) qui comprend le cycle élémentaire et le collège et qui compte 277 élèves et un corps professoral de 11enseignants.Cette école totalement marginalisée a besoin d’énormes aides, aussi bien en ressources scolaires, en mobiliers scolaires, en infrastructures qu’en hygiène pour les enfants, dont le contenu est détaillé ci- dessous par le directeur d’école"
@@ -28,15 +28,15 @@
   {
     "id": "ecriture",
     "title": "Écriture",
-    "image": "http://localhost:3000/plume.png",
-    "cover": "http://localhost:3000/plume.png",
+    "image": "http://localhost:3001/plume.png",
+    "cover": "http://localhost:3001/plume.png",
     "description": "Dépuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-)",
     "year": "2016",
     "casting": [
       {
         "id": "dlc",
         "name": "De L'autre Coté",
-        "image": "http://localhost:3000/dlc.jpg",
+        "image": "http://localhost:3001/dlc.jpg",
         "age": "2016",
         "nationality": "Sénégal",
         "biography": "Il y avait au Sénégal, dans la région de Saint Louis, un jeune garçon qui respectait très profondément ses parents et les aimait. Il était de grande taille, avec un teint foncé qui brillait sous le soleil. Avant sa naissance, ses parents, Viviane et Senghor, faisaient partie des familles privilégiées, les plus riches du pays. Saint Louis fut la première ville fondée par les européens en Afrique Occidentale, centre de commerce incontournable pour l’or, la gomme arabique, l’ivoire et les esclaves. Ses parents servaient d’interprètes entre les grands commerçants Sénégalais et les colons, les Blancs. Ils ne manquaient de rien et vivaient dans une grande maison richement ornée.Cependant, cette aisance dura jusqu’au moment où de grands intellectuels épris de liberté décidèrent d’agir pour l’indépendance du Sénégal. Ce mouvement était dirigé par Léopold Sédar Senghor qui devint le premier président du Sénégal libre en 1960. Et malheureusement pour Senghor et Viviane, leurs protecteurs Blancs décidèrent de rentrer en France. Tous leurs biens mobiliers, bateaux, charrettes, revinrent à l’Etat Sénégalais qui décida de les conserver pour le patrimoine national. Ce fut dans ce contexte de soudaine pauvreté que notre jeune garçon vit le jour cette année-là. En proie à l’obscurité, aux ténèbres et au désespoir, ses parents le prénommèrent Hadès. Au fil des ans, du fait de son air sombre et chagrin mais cependant déterminé, on le surnomma l’Enfant jamais content. Ceci est son histoire"
@@ -44,7 +44,7 @@
       {
         "id": "aco",
         "name": "Au coeur de l'obscurité",
-        "image": "http://localhost:3000/images-2.jpeg",
+        "image": "http://localhost:3001/images-2.jpeg",
         "age": "2019",
         "nationality": "Sénégal",
         "biography": "Aussi absurde et insensé que cela paraîtra, je l’ai fait. Je me souviens de moi encore dans mon beau pays ou plutôt dans mon beau village : je préférais ce lieu à mille autres lieux. Il s’appelle Ségou Coura.Mon Dieu ! Mais qu’est ce qui m’a pris moi, un jeune homme d’apparence simple, plutôt joyeux pour oser faire ce j’ai fait : je ne suis qu’un inconscient, un petit garçon très têtu qui n’en fait qu’à sa tête. Je sais une chose c’est qu’on peut dire que j’étais…. Mais pourquoi je parle de moi au passé comme si je n’existe plus, vous me direz bien sûr que tu existes puisque tu es en train d’écrire. Mais laissons donc ces plaisanteries là où elles ne servent pas à grand-chose.  Je voulais plutôt dire que je suis du genre à ne me soucier de rien, un peu rêveur, impulsif et un peu  trop même … beaucoup trop curieux, vous verrez même que se sont ces rêves là et cette curiosité qui m’ont conduit à mes pires cauchemars et ont failli me coûter la vie..."
@@ -54,15 +54,15 @@
   {
     "id": "paa",
     "title": "Plan d'Action Pour l'Afrique",
-    "image": "http://localhost:3000/Afrique.png",
-    "cover": "http://localhost:3000/Afrique.png",
+    "image": "http://localhost:3001/Afrique.png",
+    "cover": "http://localhost:3001/Afrique.png",
     "description": "L'Afrique est probablement le continent le plus riche en terme de matières premières dans le monde",
     "year": "2019",
     "casting": [
       {
         "id": "edb",
         "name": "L'éducation de base",
-        "image": "http://localhost:3000/image5.jpg",
+        "image": "http://localhost:3001/image5.jpg",
         "age": "2019",
         "nationality": "Afrique",
         "biography": "Pour aider l'Afrique à rentrer dans la course de l'émergenc, suadra déja penser à mettre de la rigueur dans l'éducation et cela dès la base. Les gouvernemants doivent investir pour améliorer l'éducation pour la jeunesse de son pays d'une part, et d'autre part, les responsables pédagogiques et les parents doivent s'impliquer davantage dans leur rôle de tuteur afin de motiver les enfants"
@@ -70,7 +70,7 @@
       {
         "id": "epj",
         "name": "L'emploi pour les jeunes",
-        "image": "http://localhost:3000/emploi.png",
+        "image": "http://localhost:3001/emploi.png",
         "age": "2019",
         "nationality": "Afrique",
         "biography": "Sans emploi dans un pays uncun jeune ne pense à y rester car chacun cherche à gagner sa vie. Comment pouvons-nous espérer voir nos pays se développer sans un aucune garantie d'avenir. Pourquoi s'étonner que les jeunes préfèrent sacrifier leur vie dans les océans, dans le désert... s'il le faut au prix d'un emploi de misère qu'ils espèrent trouver en europe. Qur font nos gouvernement pour promouvoir les créations d'emploi? Que font les jeunes eux même mis à part les fait d'aller se jeter dans la mer, pour dynamiser leurs pays? pour faire en sorte que cela bouge?"
@@ -78,7 +78,7 @@
       {
         "id": "E&I",
         "name": "Entreprenariat et Innovation",
-        "image": "http://localhost:3000/ENTT.jpeg",
+        "image": "http://localhost:3001/ENTT.jpeg",
         "age": "2019",
         "nationality": "Afrique",
         "biography": "Quel budget pour les jeunes entrepreneurs africains? "
