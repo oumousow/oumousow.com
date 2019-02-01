@@ -37,8 +37,14 @@
 </script>
 
 <style scoped>
+.container
+{
+  background-color: white;
+  max-width: 1437px;
+
+}
   .media {
-    height: 30rem;
+    height: 20rem;
     overflow: hidden;
   }
 
@@ -48,7 +54,7 @@
 
   .card-container {
     width: 60rem;
-    height: 65rem;
+    height: 50rem;
     margin: auto;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
@@ -58,7 +64,7 @@
     flex-direction: row;
     grid-gap: .5rem;
     grid-template-columns: auto auto auto;
-    margin-top: 2rem;
+    margin-top: 0rem;
     padding-left: 2.5rem;
   }
 

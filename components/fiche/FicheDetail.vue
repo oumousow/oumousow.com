@@ -33,6 +33,11 @@
     width: 13rem;
   }
 
+  .container
+  {
+      background-color: white;
+      max-width: 1437px;
+  }
   .biography {
     padding: 1rem 2rem;
   }

@@ -42,8 +42,11 @@
 
   .card {
     padding: .5rem;
-  }
-
+    margin-top: 1px;
+    margin-right: 3px;
+    margin-left: -7px;
+    border-radius: 1.25rem;
+}
   .card p {
       text-decoration : none !important;
     }
@@ -51,7 +54,7 @@
     a, a:hover {
     text-decoration : none !important;
     color: black !important;
-    
+
     }
 </style>
 

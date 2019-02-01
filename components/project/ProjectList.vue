@@ -24,7 +24,7 @@
 
 <style scoped>
   .container {
-    margin-top: 3rem;
+    margin-top: 0rem;
   }
 
   .card-container {
@@ -41,7 +41,7 @@
   .list {
     display: grid;
     flex-direction: row;
-    grid-gap: 5rem;
+    grid-gap: 8rem;
     grid-template-columns: auto auto auto;
     padding-left: 1rem;
   }
