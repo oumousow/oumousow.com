@@ -27,14 +27,14 @@
   }
 </script>
 
-<style scoped lang="scss">
+<style scoped>
 
   img {
     width: 13rem;
   }
 
   .biography {
-    padding: 1rem 1rem;
+    padding: 1rem 2rem;
   }
 
   .card {
