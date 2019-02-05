@@ -18,7 +18,7 @@
  <div class="text1">    
 <p>Mon stage chez Moben Technology s’est déroulé essentiellement au tour du sujet :</p>
    <p><strong> "Comment aider  les chercheur d’emploi à trouver du travail facilement?"</strong></p>
-<p>Pour cela j’étais immergée durant mes six semaines de stages au sein de l’équipe de Keljob chez Figaro-Classifieds. Pour faire un site web, il faut connaitre les outils selon plusieurs étapes suivantes:</p>
+<p>Pour cela j’étais immergée durant mes six semaines de stages au sein de l’équipe de Keljob chez Figaro-Classifieds. Pour faire un site web, il faut passer par les étapes suivantes:</p>
 </div>        
         <a href="https://moben.fr/"
            class="card-link">Moben Technology</a>
@@ -50,7 +50,7 @@
           <p class="card-text">
             {{ text }}
           </p>
-          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
+          <p class="card-text"> <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">suivre</a> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -63,7 +63,7 @@
           <p class="card-text">
             {{ msg }}
           </p>
-          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
+          <p class="card-text"> <a href="https://openclassrooms.com/fr/courses/3306901-creez-des-pages-web-interactives-avec-javascript/3722361-utilisez-des-api-web">suivre</a> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -76,7 +76,7 @@
           <p class="card-text">
             {{sms}}
           </p>
-          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
+          <p class="card-text"> <a href="https://vuejs.org/">suivre</a> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -91,7 +91,7 @@
           <p class="card-text">
             {{ mes }}
           </p>
-          <p class="card-text"> <router-link to="/accueil">suivre</router-link> </p>
+          <p class="card-text"> <a href="https://dashboard.heroku.com/">suivre</a> </p>
         </b-card-body>
       </b-collapse>
     </b-card>
@@ -123,11 +123,11 @@ export default
       msg:
       
       `
-Boostrap
+JavaScript, 
       `,
       sms:
       `
-Vue js, Boostrapsvue
+Vue js, Bootstrap, Boostrapsvue
       `,
       mes:
       `
@@ -153,7 +153,8 @@ Nuxt, Déployement sur Heruku via github
 .container {
   /*margin: 10px;*/
   margin-right: 10px;
-  margin-left: 160px;
+  margin-left: 0px;
+  
   width: 100%;
   /**0 auto*/
   min-height: 93vh;
@@ -162,6 +163,7 @@ Nuxt, Déployement sur Heruku via github
   justify-content: center;
   align-items: center;
   text-align: center;
+  max-width: 1850px;
 }
 
 .title {
@@ -205,4 +207,13 @@ text-decoration-color: black;
   color: black;
  
 }
+.p-1 {
+    padding: 1.50rem !important;
+}
+.btn-info {
+    color: #fff;
+    background-color: var(--gray-dark);
+    border-color: #17a2b8;
+}
+
 </style>

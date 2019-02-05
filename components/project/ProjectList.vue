@@ -24,7 +24,9 @@
 
 <style scoped>
   .container {
-    margin-top: 0rem;
+    margin-top: 5rem;
+    max-width: 1288px;
+
   }
 
   .card-container {
