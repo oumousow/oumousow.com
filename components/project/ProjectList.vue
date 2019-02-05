@@ -41,11 +41,11 @@
   }
 
   .list {
-    display: grid;
+    display:-webkit-inline-box;
     flex-direction: row;
     grid-gap: 8rem;
     grid-template-columns: auto auto auto;
-    padding-left: 1rem;
+    padding-left: 8rem;
   }
 </style>
 

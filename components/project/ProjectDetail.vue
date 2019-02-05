@@ -2,7 +2,7 @@
   <div class="container">
     <div class="card-container">
       <div class="media">
-        <img :src="project.cover" alt="Avatar" style="width: 100%">
+        <img :src="project.cover" alt="Avatar" style="width: 50%">
       </div>
       <div class="card">
         <div>
@@ -54,7 +54,7 @@
   }
 
   .card {
-    padding: 1rem 3rem 2rem 3rem;
+    padding: 0rem 3rem 2rem 3rem;
   }
 
   .card-container {
@@ -71,6 +71,8 @@
     grid-template-columns: auto auto auto;
     margin-top: 0rem;
     padding-left: 2.5rem;
+    max-width: 840px;
+    margin: 8px;
   }
 
   .actor {

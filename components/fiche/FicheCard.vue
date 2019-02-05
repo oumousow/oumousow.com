@@ -29,7 +29,7 @@
 
 <style scoped>
   .media {
-    height: 15rem;
+    height: 14rem;
     width: 13rem;
     overflow: hidden;
     margin: auto;
@@ -37,9 +37,18 @@
 
   .card {
     padding: .5rem;
+    max-width: 266px;
+    margin: 12px;
+    height: 68px;
   }
   a, a:hover {
     text-decoration : none !important;
     color: black !important;
     }
+     img {
+    vertical-align: top;
+    border-style: none;
+    max-width: 209px;
+    height: 200px;
+}
 </style>

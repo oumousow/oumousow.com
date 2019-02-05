@@ -62,6 +62,7 @@
   
   img {
     width: 13rem;
+    
   }
 
   .container

@@ -1,5 +1,6 @@
 <template>
   <div class="body">
+     <strong class="def"> Mes projets </strong>
     <project-list :projects="projects"></project-list>
   </div>
 </template>
@@ -22,5 +23,9 @@
 {
   background-color: white;
   
+}
+.def
+{
+ margin: 600px;
 }
 </style>

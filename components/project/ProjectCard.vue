@@ -1,17 +1,19 @@
 <template>
+
 <div class="corps">
     <nuxt-link :to="redirection">
       <div class="media">
+        <h4><b>{{ project.title }}</b></h4><br><br><br><br>
         <img :src="project.image" alt="Avatar" style="width: 100%">
       </div>
       <div class="card">
         <div>
-          <h4><b>{{ project.title }}</b>&nbsp;<em>({{ project.year }})</em></h4>
           <p>{{ project.description }}</p>
         </div>
       </div>
     </nuxt-link>
-</div>    
+</div>
+   
 </template>
 
 <script>
@@ -46,6 +48,8 @@
     margin-right: 3px;
     margin-left: -7px;
     border-radius: 1.25rem;
+    max-width: 314px;
+    height: 176px;
 }
   .card p {
       text-decoration : none !important;
@@ -56,6 +60,28 @@
     color: black !important;
 
     }
+    img {
+    vertical-align: middle;
+    max-width: 300px;
+    height: 240px;
+    margin-left: -72px;
+    margin-top: 70px;
+
+}
+.card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 0.25rem;
+}
+h4, .h4 {
+    font-size: 1.2rem;
+}
 </style>
 
 
