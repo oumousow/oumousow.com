@@ -30,7 +30,7 @@ export default {
 <style>
 .effet
 {
-  background-color:rgba(0, 0, 0, 0.4);
+  background-color:rgba(0, 0, 0, 0.8);
 }
 .container {
   margin: 0 auto;

@@ -15,16 +15,18 @@
   <div class="page1">
     <b-card  bg-variant="transparent"  text-variant="white"  title=" Mon stage chez Moben Technology-Figaro-classifieds"
             sub-title="">
-        <p class="card-text">
+ <div class="text1">    
 <p>Mon stage chez Moben Technology s’est déroulé essentiellement au tour du sujet :</p>
    <p><strong> "Comment aider  les chercheur d’emploi à trouver du travail facilement?"</strong></p>
 <p>Pour cela j’étais immergée durant mes six semaines de stages au sein de l’équipe de Keljob chez Figaro-Classifieds. Pour faire un site web, il faut connaitre les outils selon plusieurs étapes suivantes:</p>
+</div>        
         <a href="https://moben.fr/"
            class="card-link">Moben Technology</a>
         <b-link href="https://www.keljob.com/"
                 class="card-link">Keljob</b-link>
     </b-card>
 </div>
+ 
 
 <!-- 
 <b-card  bg-variant="transparent" text-variant="white" title="Card Title">
@@ -168,7 +170,7 @@ Nuxt, Déployement sur Heruku via github
   display: block;
   font-weight: 350;
   font-size: 60px;
-  color:white;
+  color:black;
   /* #35495e*/
   letter-spacing: 1px;
 }
@@ -176,7 +178,7 @@ Nuxt, Déployement sur Heruku via github
 .subtitle {
   font-weight: 250;
   font-size: 25px;
-  color:white;
+  color:black;
   /*#526488*/
   word-spacing: 5px;
   padding-bottom: 15px;
@@ -195,5 +197,12 @@ Nuxt, Déployement sur Heruku via github
 {
 margin-left: 0px;
 margin-right: 0px;
+text-decoration-color: black;
+
+}
+.text1
+{
+  color: black;
+ 
 }
 </style>

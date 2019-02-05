@@ -1,13 +1,9 @@
 <template>
   <nuxt-link :to="redirection">
-    <div class="media">
-      <img :src="fiche.image" alt="Avatar" style="width: 100%">
+    <div>
+   
     </div>
     <div class="card">
-      <div>
-        <h4><b>{{ fiche.name }}</b>&nbsp;<em>({{ fiche.age }})</em></h4>
-      </div>
-    
     </div>
   </nuxt-link>
 </template>

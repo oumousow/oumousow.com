@@ -14,6 +14,11 @@
               <div v-for="fiche in project.casting" :key="fiche.id" class="actor">
                 <fiche-card :fiche="fiche" :redirection="`/projects/${project.id}/${fiche.id}`"></fiche-card>
               </div>
+
+              <div v-for="fiche in project.carousel" :key="fiche.id" class="actor">
+                <fiche-card :fiche="fiche" :redirection="`/projects/${project.id}/${fiche.id}`"></fiche-card>
+              </div>
+
             </section>
           </div>
         </div>

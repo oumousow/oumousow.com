@@ -13,7 +13,102 @@
         "image": "http://localhost:3001/imbar.jpg",
         "age": "2018",
         "nationality": "Mali",
-        "biography": "L'association Barinta soutient cette année un petit collège de 183 élèves qui se trouve dans le cercle de Bafoulabé, dans la commune de Mahina. Ce dernier sera le premier à bénéficier de notre programme : LE 3 JANVIER 2018. Le collège compte 3 salles de classe de trois niveaux différents : - La classe des élèves de septième année compte 48 élèves  - Celle des élèves de huitième année compte 36 élèves. - Et enfin celle des élèves de neuvième année (brevet de fin d’étude du collège) de 99 élèves. Ce sureffectif fait que les élèves se retrouvent à être jusqu'à quatre élèves par table ce qui rend l'encadrement très difficile. Etant convaincus de la pertinence d’une action d’aide scolaires, nous avons contacté le directeur de l’école de Diallola pour confirmer nos préoccupations concernant les conditions d’études des enfants. Le directeur nous a fait part des conditions difficiles citées plus haut"
+        "biography": "L'association Barinta soutient cette année un petit collège de 183 élèves qui se trouve dans le cercle de Bafoulabé, dans la commune de Mahina. Ce dernier sera le premier à bénéficier de notre programme : LE 3 JANVIER 2018. Le collège compte 3 salles de classe de trois niveaux différents : - La classe des élèves de septième année compte 48 élèves  - Celle des élèves de huitième année compte 36 élèves. - Et enfin celle des élèves de neuvième année (brevet de fin d’étude du collège) de 99 élèves. Ce sureffectif fait que les élèves se retrouvent à être jusqu'à quatre élèves par table ce qui rend l'encadrement très difficile. Etant convaincus de la pertinence d’une action d’aide scolaires, nous avons contacté le directeur de l’école de Diallola pour confirmer nos préoccupations concernant les conditions d’études des enfants. Le directeur nous a fait part des conditions difficiles citées plus haut",
+        "site": "En savoir plus",
+        "carousel":
+          {
+            "id":"des",
+            "name":"Images",
+            "images":
+            [
+                {
+                  "url": "http://localhost:3001/image7.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image20.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image21.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image22.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image23.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image24.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image25.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image26.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image27.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image28.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image29.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image30.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image31.jpg",
+                  "description":"fournitures"
+                }, 
+                {
+                  "url": "http://localhost:3001/image32.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image33.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image34.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image35.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image36.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image37.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image38.jpg",
+                  "description":"fournitures"
+                },
+                {
+                  "url": "http://localhost:3001/image39.jpg",
+                  "description":"fournitures"
+                }
+
+            ]  
+
+          }
       },
       {
         "id": "karamokola",
@@ -21,7 +116,71 @@
         "image": "http://localhost:3001/imkar.jpg",
         "age": "2019",
         "nationality": "Mali",
-        "biography": "Cette année, Barinta compte soutenir l’école fondamentale de Karamokola dans la région de Koulikoro (Cercle de Kati) qui comprend le cycle élémentaire et le collège et qui compte 277 élèves et un corps professoral de 11enseignants.Cette école totalement marginalisée a besoin d’énormes aides, aussi bien en ressources scolaires, en mobiliers scolaires, en infrastructures qu’en hygiène pour les enfants, dont le contenu est détaillé ci- dessous par le directeur d’école"
+        "biography": "Cette année, Barinta compte soutenir l’école fondamentale de Karamokola dans la région de Koulikoro (Cercle de Kati) qui comprend le cycle élémentaire et le collège et qui compte 277 élèves et un corps professoral de 11enseignants.Cette école totalement marginalisée a besoin d’énormes aides, aussi bien en ressources scolaires, en mobiliers scolaires, en infrastructures qu’en hygiène pour les enfants, dont le contenu est détaillé ci- dessous par le directeur d’école",
+        "site": "En savoir plus",
+        "carousel":
+        {
+          "id":"des",
+          "name":"Images",
+          "images":
+          [
+            {
+          "url": "http://localhost:3001/image2.jpg",
+          "description":"fournitures"
+
+            },
+            {
+          "url": "http://localhost:3001/image3.jpg",
+          "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image4.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image5.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image6.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image8.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image9.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image10.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image12.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image13.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image15.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image16.jpg",
+              "description":"fournitures"
+            },
+            {
+              "url": "http://localhost:3001/image18.jpg",
+              "description":"fournitures"
+            }                                                        
+          ]  
+
+        }
+
       }
     ]
   },
