@@ -132,8 +132,9 @@ export default {
 }
 .pres
 {
-    height: 560px;
+    height: 575px;
     max-width: 1000px;
+    margin-left: 200px;
 }
 .about
 {

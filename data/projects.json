@@ -236,7 +236,13 @@
         "image": "http://localhost:3001/image5.jpg",
         "age": "2019",
         "nationality": "Afrique",
-        "biography": "Pour aider l'Afrique à rentrer dans la course de l'émergenc, suadra déja penser à mettre de la rigueur dans l'éducation et cela dès la base. Les gouvernemants doivent investir pour améliorer l'éducation pour la jeunesse de son pays d'une part, et d'autre part, les responsables pédagogiques et les parents doivent s'impliquer davantage dans leur rôle de tuteur afin de motiver les enfants"
+        "biography": "Pour aider l'Afrique à rentrer dans la course de l'émergence, faudra déja penser à mettre de la rigueur dans l'éducation et cela dès la base. Les gouvernemants doivent investir pour améliorer l'éducation pour la jeunesse de son pays d'une part, et d'autre part, les responsables pédagogiques et les parents doivent s'impliquer davantage dans leur rôle de tuteur afin de motiver les enfants",
+        "carousel": 
+        {
+          "id":"des",
+          "description":"Pour aider l'Afrique à rentrer dans la course de l'émergence, faudra déja penser à mettre de la rigueur dans l'éducation et cela dès la base. Les gouvernemants doivent investir pour améliorer l'éducation pour la jeunesse de son pays d'une part, et d'autre part, les responsables pédagogiques et les parents doivent s'impliquer davantage dans leur rôle de tuteur afin de motiver les enfants. Comment espère t-on contribuer au developpement d'un pays si on invertit pas dans l'éducation des enfants? Quand on regarde les pays européens pour lesquelles les jeunes africains se tuent pour pouvoir trouver du travai, leurs plus gros budgets gouvermentales concernent l'éducation. Alors ne nous trompons pas, si on veut retenir les jeunes, il faut leur assurer une éducation solide et une garantie d'emploi à la fin de leurs études",
+          "site":"En savoir plus"
+        }    
       },
       {
         "id": "epj",
@@ -244,7 +250,13 @@
         "image": "http://localhost:3001/emploi.png",
         "age": "2019",
         "nationality": "Afrique",
-        "biography": "Sans emploi dans un pays uncun jeune ne pense à y rester car chacun cherche à gagner sa vie. Comment pouvons-nous espérer voir nos pays se développer sans un aucune garantie d'avenir. Pourquoi s'étonner que les jeunes préfèrent sacrifier leur vie dans les océans, dans le désert... s'il le faut au prix d'un emploi de misère qu'ils espèrent trouver en europe. Qur font nos gouvernement pour promouvoir les créations d'emploi? Que font les jeunes eux même mis à part les fait d'aller se jeter dans la mer, pour dynamiser leurs pays? pour faire en sorte que cela bouge?"
+        "biography": "Sans emploi dans un pays uncun jeune ne pense à y rester car chacun cherche à gagner sa vie. Comment pouvons-nous espérer voir nos pays se développer sans un aucune garantie d'avenir. Pourquoi s'étonner que les jeunes préfèrent sacrifier leur vie dans les océans, dans le désert... s'il le faut au prix d'un emploi de misère qu'ils espèrent trouver en europe. Qur font nos gouvernement pour promouvoir les créations d'emploi? Que font les jeunes eux même mis à part les fait d'aller se jeter dans la mer, pour dynamiser leurs pays? pour faire en sorte que cela bouge?",
+        "carousel": 
+        {
+          "id":"des",
+          "description":"Sans emploi dans un pays uncun jeune ne pense à y rester car chacun cherche à gagner sa vie. Comment pouvons-nous espérer voir nos pays se développer sans un aucune garantie d'avenir. Pourquoi s'étonner que les jeunes préfèrent sacrifier leur vie dans les océans, dans le désert... s'il le faut au prix d'un emploi de misère qu'ils espèrent trouver en europe. Qur font nos gouvernement pour promouvoir les créations d'emploi? Que font les jeunes eux même mis à part les fait d'aller se jeter dans la mer, pour dynamiser leurs pays? pour faire en sorte que cela bouge? Pour qu'un pays se développe il faut sa resource de base: la jeunesse forte et ambitieuse. Aucune personne ne souhaite quitter sa famille pour aller se tuer au travail à l'autre bout du monde pour espérer leur donner une meilleure vie. Alors nos dirigeants doivent investir davantage pour la création des emplois dans nos pays.",
+          "site":"En savoir plus"
+        }    
       },
       {
         "id": "E&I",
@@ -252,7 +264,13 @@
         "image": "http://localhost:3001/ENTT.jpeg",
         "age": "2019",
         "nationality": "Afrique",
-        "biography": "Quel budget pour les jeunes entrepreneurs africains? "
+        "biography": "Quel budget pour les jeunes entrepreneurs africains? En effet, les jeunes ont bien beau vouloir entreprendre dans leurs pays, mais s'il n'y a aucune aide de finacement, ils mourront avec leurs idées ou iront les mettre au service d'une autre nation. Alors oui il faut un budget pour aider les jeunes à entreprendre et se sentir soutenu dans leurs propres pays. plus de la moitié des jeunes ans les pays africains se sentent marginalisés et utilisés comme un moyen pcomme moyen d'acceder au pouvoir par les gouvernements sans qu'ils puissent une fois au pouvoir leur proposer des solutions pour sortir de leurs misères",
+        "carousel": 
+        {
+          "id":"des",
+          "description":"Quel budget pour les jeunes entrepreneurs africains?",
+          "site":"En savoir plus"
+        }    
       }
     ]
   }

@@ -37,13 +37,13 @@
 </b-card>
 -->
 
-  <div role="tablist">
+  <div role="tablist" class="h">
     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-btn block href="#" v-b-toggle.accordion1 variant="info">Etape 1</b-btn>
       </b-card-header>
       <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
-        <b-card-body>
+        <b-card-body class="c">
           <p class="card-text">
            <!-- I start opened because <code>visible</code> is <code>true</code>-->
           </p>
@@ -59,7 +59,7 @@
         <b-btn block href="#" v-b-toggle.accordion2 variant="info">Etape 2</b-btn>
       </b-card-header>
       <b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
-        <b-card-body>
+        <b-card-body class="c">
           <p class="card-text">
             {{ msg }}
           </p>
@@ -72,7 +72,7 @@
         <b-btn block href="#" v-b-toggle.accordion3 variant="info">Etape 3</b-btn>
       </b-card-header>
       <b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
-        <b-card-body>
+        <b-card-body class="c">
           <p class="card-text">
             {{sms}}
           </p>
@@ -80,14 +80,43 @@
         </b-card-body>
       </b-collapse>
     </b-card>
-    
 
-    <b-card no-body class="mb-1">
+     <b-card no-body class="mb-1">
       <b-card-header header-tag="header" class="p-1" role="tab">
         <b-btn block href="#" v-b-toggle.accordion4 variant="info">Etape 4</b-btn>
       </b-card-header>
       <b-collapse id="accordion4" accordion="my-accordion" role="tabpanel">
-        <b-card-body>
+        <b-card-body class="c">
+          <p class="card-text">
+            {{sm}}
+          </p>
+          <p class="card-text"> <a href="https://bootstrap-vue.js.org/">suivre</a> </p>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
+    
+
+<b-card no-body class="mb-1">
+      <b-card-header header-tag="header" class="p-1" role="tab">
+        <b-btn block href="#" v-b-toggle.accordion5 variant="info">Etape 5</b-btn>
+      </b-card-header>
+      <b-collapse id="accordion5" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="c">
+          <p class="card-text">
+            {{mess}}
+          </p>
+          <p class="card-text"> <a href="https://nuxtjs.org/">suivre</a> </p>
+        </b-card-body>
+      </b-collapse>
+    </b-card>
+
+
+    <b-card no-body class="mb-1">
+      <b-card-header header-tag="header" class="p-1" role="tab">
+        <b-btn block href="#" v-b-toggle.accordion6 variant="info">Etape 6</b-btn>
+      </b-card-header>
+      <b-collapse id="accordion6" accordion="my-accordion" role="tabpanel">
+        <b-card-body class="c">
           <p class="card-text">
             {{ mes }}
           </p>
@@ -118,20 +147,29 @@ export default
  data () {
     return {
       text: `
-        Html, css
+        Html: est un langage de balisage permettant de créer et de représenter des pages web,
+        CSS: permet d’améliorer l’apparence de la page web
       `,
       msg:
       
       `
-JavaScript, 
+JavaScript:permet de dynamiser les pages web afin de les rendre interactives 
       `,
       sms:
       `
-Vue js, Bootstrap, Boostrapsvue
+Vue js: 
+      `,
+      sm:
+      `
+Bootstrap, Boostrapsvue
+      `,
+      mess:
+      `
+Nuxt
       `,
       mes:
       `
-Nuxt, Déployement sur Heruku via github
+Déployement sur Heruku via github
       `
 
     }
@@ -141,6 +179,16 @@ Nuxt, Déployement sur Heruku via github
 </script>
 
 <style>
+.h
+{
+margin-top: 0px;
+max-width: 2000px;
+padding: 10px;
+}
+.c
+{
+  height: 100px;
+}
 .largeur
 {
   padding-left: 10px;
