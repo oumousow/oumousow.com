@@ -1,46 +1,51 @@
 <template>
 <div class="bar" id="bar">
-  <b-navbar type="light" variant="white" toggleable >
-    <b-navbar-toggle target="nav_dropdown_collapse"></b-navbar-toggle>
-    <b-collapse is-nav id="nav_dropdown_collapse">
-      <b-navbar-nav>
-      <b-nav-item><router-link to="/">Oumou Sow</router-link></b-nav-item>
-      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-      &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-
-      <b-nav-item><router-link to="/accueil">Accueil</router-link></b-nav-item>
-      <b-nav-item><router-link to="/about">À Propos</router-link></b-nav-item>
-      <b-nav-item><router-link to="/projects">Projets</router-link></b-nav-item>
-      <b-nav-item><router-link to="/contact">Contacter</router-link></b-nav-item>
-        <!-- Navbar dropdowns -->
-        <!--<b-nav-item-dropdown text="Lang" right>
-          <b-dropdown-item href="#">EN</b-dropdown-item>
-          <b-dropdown-item href="#">ES</b-dropdown-item>
-          <b-dropdown-item href="#">RU</b-dropdown-item>
-          <b-dropdown-item href="#">FA</b-dropdown-item>
-        </b-nav-item-dropdown>
-        <b-nav-item-dropdown text="User" right>
-          <b-dropdown-item href="#">Account</b-dropdown-item>
-          <b-dropdown-item href="#">Settings</b-dropdown-item>
-        </b-nav-item-dropdown>-->
-      </b-navbar-nav>
-    </b-collapse>
-  </b-navbar>
-</div>
-
+  <b-navbar 
+      class="cowork-nav"
+      toggleable="md"
+      variant="white" 
+      type="light">
+      <b-navbar-toggle target="nav_collapse"/>
+      
+      <b-navbar-brand class="logo" to="/">
+        Oumou Sow
+      </b-navbar-brand>
+      
+      <b-collapse 
+        id="nav_collapse" 
+        is-nav>
+        <b-navbar-nav class="ml-auto">
+          <b-nav-item 
+            right
+            to="/accueil">Accueil</b-nav-item>
+          <b-nav-item 
+            right
+            to="/about">À propos</b-nav-item>
+          <b-nav-item 
+            right
+            to="/projects">Projets</b-nav-item>
+          <b-nav-item 
+            right
+            to="/contact">Contact</b-nav-item>
+        </b-navbar-nav>
+      </b-collapse>  
+    </b-navbar>
+  </div>
 </template>
 
-<!--<script>
-export default {
-  name:'Nav'
-}
-</script>
--->
 <style>
-
+  .bar {
+    border-bottom: 1px solid #dddddd;
+    margin-bottom: 1rem;
+  }
+  .bg-container .logo {
+    font-weight: 900;
+    color: white !important;
+    font-size: 1.8rem;
+  }
+  .logo {
+    font-weight: 900;
+    color: #333 !important;
+    font-size: 1.8rem;
+  }
 </style>

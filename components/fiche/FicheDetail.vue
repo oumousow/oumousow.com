@@ -65,11 +65,6 @@
     
   }
 
-  .container
-  {
-      background-color: white;
-      max-width: 1437px;
-  }
   /*.centre
   {
     padding-left: 200px;

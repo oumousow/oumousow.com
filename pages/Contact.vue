@@ -64,14 +64,14 @@ background-color: rgba(0, 0, 0, 0.1);
 }
 .contenu
 {
-  padding-left: 550px;
+  padding-left: 405px;
   padding-top: 150px;
 
 }
 .form
 {
-  padding-left: 350px; 
-    padding-top: 100px;
+padding-left: 150px;    
+padding-top: 100px;
 
 }
 </style>

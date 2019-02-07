@@ -1,8 +1,9 @@
 <template>
-  <div class="body">
-     <strong class="def"> Mes projets </strong>
-    <project-list :projects="projects"></project-list>
-  </div>
+  <b-card title="Mes projets">
+    <b-card-body>
+      <project-list :projects="projects"></project-list>
+    </b-card-body>
+  </b-card>
 </template>
 <script>
   import ProjectList from "../../components/project/ProjectList";
@@ -22,11 +23,10 @@
 .body
 {
   background-color: white;
-  
 }
 .def
 {
- margin: 600px;
+ margin: 530px;
  margin-top: 100px;
 }
 </style>

@@ -42,26 +42,9 @@
 </script>
 
 <style scoped>
-.container
-{
-  background-color: white;
-  max-width: 1437px;
-
-}
   .media {
     height: 20rem;
     overflow: hidden;
-  }
-
-  .card {
-    padding: 0rem 3rem 2rem 3rem;
-  }
-
-  .card-container {
-    width: 60rem;
-    height: 50rem;
-    margin: auto;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
   }
 
   .actors {
