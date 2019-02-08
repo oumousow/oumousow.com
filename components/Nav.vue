@@ -17,7 +17,7 @@
         <b-navbar-nav class="ml-auto">
           <b-nav-item 
             right
-            to="/accueil">Accueil</b-nav-item>
+            to="/accueil">Mon Stage</b-nav-item>
           <b-nav-item 
             right
             to="/about">À propos</b-nav-item>

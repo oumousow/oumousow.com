@@ -1,10 +1,12 @@
 <template>
+<b-row>
+    <b-col md="20"  offset-md="2">
 <div class="astuces">
-<div id="contacter" class="contacter">
 
 <div class="form">
-<strong> Si vous souhaitez rentrer en contacte avec moi, il suffit d'utiliser l'un des icones suivants </strong>
-</div>
+
+<strong> Si vous souhaitez rentrer en contacte avec moi, il suffit d'utiliser l'un des icones suivants </strong><br><br><br><br><br>
+ </div>
 
 <div id="contenu" class="contenu">
 <a href="https://www.facebook.com/adjaoumousow" title="Facebook" class="facebook_ico soc_circle" target="_blank" style="width: 45px; height: 45px; font-size: 6px;line-height:50px;"><span><img src="https://img.icons8.com/color/74/000000/facebook.png"></span></a>
@@ -13,49 +15,17 @@
 
 </div>
 </div>
-</div>
+
+ </b-col>
+</b-row>
 </template>
 
-<script>
-import Form from '@/components/Form'
-export default 
-{  
-  name: 'contact',
-  components: 
-{
-Form,
 
-  }
-}
-
-</script>
-<!--
-<style>
-.contacter
-{
-    background:url("../assets/image1.png") no-repeat center fixed;
-    margin:0px;
-    padding: 380px;
-  -webkit-background-size: cover; /* pour Chrome et Safari */
-  -moz-background-size: cover; /* pour Firefox */
-  -o-background-size: cover; /* pour Opera */
-  background-size: cover; /* version standardisée */
-}
-.form
-{
-padding-left: 5px;
-padding-right: 5px;
-
-margin-top: 10px;
-background-color: rgba(0, 0, 0, 0.1); 
-}
-
-</style>
--->
 <style>
 .astuces
 {
     background-color: white;
+    margin-top: 70px;
 
 }
 .contacter
@@ -64,14 +34,11 @@ background-color: rgba(0, 0, 0, 0.1);
 }
 .contenu
 {
-  padding-left: 405px;
-  padding-top: 150px;
-
+  text-align: center;
 }
+
 .form
 {
-padding-left: 150px;    
-padding-top: 100px;
-
+  text-align: center;
 }
 </style>

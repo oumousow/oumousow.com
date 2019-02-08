@@ -1,267 +1,42 @@
 <template>
-<div class="accueil">
-  <div class="largeur">
-  <section class="container">
-    <div>
-   <!--   <h4 class="title">
-        Mon stage chez Moben Technologie/<br>Figaro-classifieds
-      </h4>
-      <h6 class="subtitle">
-<p>Mon stage chez Moben Technology s’est déroulé essentiellement au tour du sujet :</p>
-   <p><strong> "Comment aider  les chercheur d’emploi à trouver du travail facilement?"</strong><p>
-<p>Pour cela j’étais immergée durant mes six semaines de stages au sein de l’équipe de Keljob chez Figaro-Classifieds. Et pour cela, il m'a fallu apprendre apprendre à faire du développement web grâce aux outils suivants.</p>
-      </h6> --> 
-
-  <div class="page1">
-    <b-card  bg-variant="transparent"  text-variant="white"  title=" Mon stage chez Moben Technology-Figaro-classifieds"
-            sub-title="">
- <div class="text1">    
-<p>Mon stage chez Moben Technology s’est déroulé essentiellement au tour du sujet :</p>
-   <p><strong> "Comment aider  les chercheur d’emploi à trouver du travail facilement?"</strong></p>
-<p>Pour cela j’étais immergée durant mes six semaines de stages au sein de l’équipe de Keljob chez Figaro-Classifieds. Pour faire un site web, il faut passer par les étapes suivantes:</p>
-</div>        
-        <a href="https://moben.fr/"
-           class="card-link">Moben Technology</a>
-        <b-link href="https://www.keljob.com/"
-                class="card-link">Keljob</b-link>
-    </b-card>
+<div class="stage">
+  <div class="text1">    
+<p>Mon stage chez <a href="https://moben.fr/"> Moben Technology</a> et <a href="http://www.figaroclassifieds.fr/">Figaro-Classified</a> s’est déroulé essentiellement au tour du sujet :</p>
+ <strong> "Comment aider  les chercheur d’emploi à trouver du travail facilement?"</strong>
+<p>Pour cela j’étais immergée durant mes six semaines de stages au sein de l’équipe de <a href="https://www.keljob.com/">Keljob</a>, un site web permettant de chercher du travail, chez Figaro-Classifieds. Pour faire un site web, il faut passer par les étapes suivantes:</p>
+</div> 
+  <ul class="list-unstyled mt-4">
+  <b-media tag="li">
+    <b-img slot="aside" blank blank-color="#abc" width="64" alt="placeholder" />
+    <h5 class="mt-0 mb-1">HTML & CSS</h5>
+    Html: est un langage de balisage permettant de créer et de représenter des pages web <br>
+    CSS: permet d’améliorer l’apparence de la page web <br><a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">suivre</a>
+  </b-media>
+  <b-media tag="li" class="my-4">
+    <b-img slot="aside" blank blank-color="#cba" width="64" alt="placeholder" />
+    <h5 class="mt-0 mb-1">JavaScript & Framework</h5>
+    JavaScript:permet de dynamiser les pages web afin de les rendre interactives <br>
+    Framework: Les framework sont <a href="https://vuejs.org/">Vue Js </a>  et <a href="https://nuxtjs.org/">Nuxt Js.</a>Ces framework sont des extentions du JavaScript qui ont des composants et des bibliothèques permettants de simplifier les codes. Ils permettent d'avoir les bonnes pratiques car ils strurent les projets grâce à leurs arborescence prédéfinies.
+  </b-media>
+  <b-media tag="li" class="my-4">
+    <b-img slot="aside" blank blank-color="#bac" width="64" alt="placeholder" />
+    <h5 class="mt-0 mb-1">Bootstrap & Boostrapsvue</h5>
+    Sont des bibliothèques qui permettent d'avoir des styles de disign prédéfinis.
+    <a href="https://bootstrap-vue.js.org/">Boostrapsvue</a> / <a href="https://bootstrap.org/">Bootstrap</a>
+  </b-media>
+  <b-media tag="li">
+    <b-img slot="aside" blank blank-color="#cba" width="64" alt="placeholder" />
+    <h5 class="mt-0 mb-1">GitHub & Heroku</h5>
+    GitHub est un outil (composé de la communauté de développeurs) qui permet de déployer nos projets web sur Heroku qui lui permet d'heberger les sites. 
+  </b-media>
+</ul>
 </div>
- 
-
-<!-- 
-<b-card  bg-variant="transparent" text-variant="white" title="Card Title">
-  <p class="card-text">
-    With supporting text below as a natural lead-in to additional content.
-  </p>
-  <b-button href="#" variant="primary">Go somewhere</b-button>
-</b-card>
--->
-
-  <div role="tablist" class="h">
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-btn block href="#" v-b-toggle.accordion1 variant="info">Etape 1</b-btn>
-      </b-card-header>
-      <b-collapse id="accordion1" visible accordion="my-accordion" role="tabpanel">
-        <b-card-body class="c">
-          <p class="card-text">
-           <!-- I start opened because <code>visible</code> is <code>true</code>-->
-          </p>
-          <p class="card-text">
-            {{ text }}
-          </p>
-          <p class="card-text"> <a href="https://openclassrooms.com/fr/courses/1603881-apprenez-a-creer-votre-site-web-avec-html5-et-css3">suivre</a> </p>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-btn block href="#" v-b-toggle.accordion2 variant="info">Etape 2</b-btn>
-      </b-card-header>
-      <b-collapse id="accordion2" accordion="my-accordion" role="tabpanel">
-        <b-card-body class="c">
-          <p class="card-text">
-            {{ msg }}
-          </p>
-          <p class="card-text"> <a href="https://openclassrooms.com/fr/courses/3306901-creez-des-pages-web-interactives-avec-javascript/3722361-utilisez-des-api-web">suivre</a> </p>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-btn block href="#" v-b-toggle.accordion3 variant="info">Etape 3</b-btn>
-      </b-card-header>
-      <b-collapse id="accordion3" accordion="my-accordion" role="tabpanel">
-        <b-card-body class="c">
-          <p class="card-text">
-            {{sms}}
-          </p>
-          <p class="card-text"> <a href="https://vuejs.org/">suivre</a> </p>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-
-     <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-btn block href="#" v-b-toggle.accordion4 variant="info">Etape 4</b-btn>
-      </b-card-header>
-      <b-collapse id="accordion4" accordion="my-accordion" role="tabpanel">
-        <b-card-body class="c">
-          <p class="card-text">
-            {{sm}}
-          </p>
-          <p class="card-text"> <a href="https://bootstrap-vue.js.org/">suivre</a> </p>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-    
-
-<b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-btn block href="#" v-b-toggle.accordion5 variant="info">Etape 5</b-btn>
-      </b-card-header>
-      <b-collapse id="accordion5" accordion="my-accordion" role="tabpanel">
-        <b-card-body class="c">
-          <p class="card-text">
-            {{mess}}
-          </p>
-          <p class="card-text"> <a href="https://nuxtjs.org/">suivre</a> </p>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-
-
-    <b-card no-body class="mb-1">
-      <b-card-header header-tag="header" class="p-1" role="tab">
-        <b-btn block href="#" v-b-toggle.accordion6 variant="info">Etape 6</b-btn>
-      </b-card-header>
-      <b-collapse id="accordion6" accordion="my-accordion" role="tabpanel">
-        <b-card-body class="c">
-          <p class="card-text">
-            {{ mes }}
-          </p>
-          <p class="card-text"> <a href="https://dashboard.heroku.com/">suivre</a> </p>
-        </b-card-body>
-      </b-collapse>
-    </b-card>
-
-  </div>
-
-    </div>
-    <div class="flotte">
-     <img src="../assets/babyboss2.png" width="150px" alt="Nouveau !" />
-    </div>
-  </section>
-  </div>
-  <!--<section class="flotte">
- <img src="../assets/babyboss2.png" width="70px" alt="Nouveau !" />
-  </section>-->
-  </div>
 </template>
 
-
-<script>
-export default 
-{  
-  name: 'accueil',
- data () {
-    return {
-      text: `
-        Html: est un langage de balisage permettant de créer et de représenter des pages web,
-        CSS: permet d’améliorer l’apparence de la page web
-      `,
-      msg:
-      
-      `
-JavaScript:permet de dynamiser les pages web afin de les rendre interactives 
-      `,
-      sms:
-      `
-Vue js: 
-      `,
-      sm:
-      `
-Bootstrap, Boostrapsvue
-      `,
-      mess:
-      `
-Nuxt
-      `,
-      mes:
-      `
-Déployement sur Heruku via github
-      `
-
-    }
-  }
-}
-
-</script>
-
 <style>
-.h
+.stage
 {
-margin-top: 0px;
-max-width: 2000px;
-padding: 10px;
+  margin-top: 80px;
+  background-color: white;
 }
-.c
-{
-  height: 100px;
-}
-.largeur
-{
-  padding-left: 10px;
-  
-}
-.accueil
-{
-  background-color:rgba(0, 0, 0,0.6);
-}
-.container {
-  /*margin: 10px;*/
-  margin-right: 10px;
-  margin-left: 0px;
-  
-  width: 100%;
-  /**0 auto*/
-  min-height: 93vh;
-  display: flex;
-  position:absolute;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  max-width: 1850px;
-}
-
-.title {
-  font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
-  'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
-  font-weight: 350;
-  font-size: 60px;
-  color:black;
-  /* #35495e*/
-  letter-spacing: 1px;
-}
-
-.subtitle {
-  font-weight: 250;
-  font-size: 25px;
-  color:black;
-  /*#526488*/
-  word-spacing: 5px;
-  padding-bottom: 15px;
-}
-
-.links {
-  padding-top: 15px;
-}
-.flotte
-{
-  float:left;
-  padding: 0px;
-  margin-top: 300px;
-}
-.page1
-{
-margin-left: 0px;
-margin-right: 0px;
-text-decoration-color: black;
-
-}
-.text1
-{
-  color: black;
- 
-}
-.p-1 {
-    padding: 1.50rem !important;
-}
-.btn-info {
-    color: #fff;
-    background-color: var(--gray-dark);
-    border-color: #17a2b8;
-}
-
 </style>
