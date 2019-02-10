@@ -3,13 +3,14 @@
 <div class="corps">
     <nuxt-link :to="redirection">
       <div class="media">
-        <h4><b>{{ project.title }}</b></h4><br><br><br><br>
+        <h4><b>{{ project.title }}</b></h4><br><br><br><br> <br>
         <img :src="project.image" alt="Avatar" style="width: 100%">
       </div>
       <div class="card">
         <div>
           <p>{{ project.description }}</p>
         </div>
+         <br> <br> <br>
       </div>
     </nuxt-link>
 </div>
@@ -74,7 +75,6 @@
     flex-direction: column;
     min-width: 0;
     word-wrap: break-word;
-    background-color: #fff;
     background-clip: border-box;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 0.25rem;

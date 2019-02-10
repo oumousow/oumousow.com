@@ -9,7 +9,6 @@
           <h4><b>{{ project.title }}</b>&nbsp;<em>({{ project.year }})</em></h4>
           <p>{{ project.description }}</p>
           <div class="container">
-            <h4>Actions</h4>
             <section class="actors">
               <div v-for="fiche in project.casting" :key="fiche.id" class="actor">
                 <fiche-card :fiche="fiche" :redirection="`/projects/${project.id}/${fiche.id}`"></fiche-card>

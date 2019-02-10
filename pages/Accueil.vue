@@ -39,4 +39,8 @@
   margin-top: 80px;
   background-color: white;
 }
+.text1
+{
+  text-align: center;
+}
 </style>

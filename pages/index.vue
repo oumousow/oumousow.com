@@ -7,7 +7,7 @@
             Bienvenue sur mon site 
           </h1>
           <p class="welcome">
-            Merci à <a href="https://nouhoumtraore.co">Nouhoum Traoré </a> et à toute son <a href="https://www.linkedin.com/company/moben-technology/about/">équipe</a>
+            Merci  <a href="https://nouhoumtraore.co">Nouhoum Traoré </a>,  <a href="https://www.linkedin.com/in/houssem-benslama?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BFR3WvVdwTeqRFpV78yqUWw%3D%3D"> Houssem Benslama</a> et toute leur <a href="https://www.linkedin.com/company/moben-technology/about/">équipe</a>
           </p>
       </section>
       </b-col>

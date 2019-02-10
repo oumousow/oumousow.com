@@ -1,7 +1,7 @@
 <template>
   <nuxt-link :to="redirection">
     <div class="media">
-      <img :src="fiche.image" alt="Avatar" style="width: 100%">
+      <img :src="fiche.image" alt="Avatar" style="width: 100% ">
     </div>
     <div class="card">
       <div>
@@ -46,6 +46,7 @@
     color: black !important;
     }
      img {
+    margin-top:20px;
     vertical-align: top;
     border-style: none;
     max-width: 209px;
