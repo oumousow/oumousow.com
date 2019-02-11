@@ -186,9 +186,9 @@
   },
   {
     "id": "ecriture",
-    "title": "Écriture",
-    "image": "http://localhost:3001/plume.png",
-    "cover": "http://localhost:3001/plume.png",
+    "title": "Personnel",
+    "image": "http://localhost:3001/perso.jpg",
+    "cover": "http://localhost:3001/perso.jpg",
     "description": "Dépuis 2016, j'écris des nouvelles, courtes et faciles à lire normalement :-)",
     "year": "2016",
     "casting": [
@@ -219,12 +219,42 @@
           "description":"Aussi absurde et insensé que cela paraîtra, je l’ai fait. Je me souviens de moi encore dans mon beau pays ou plutôt dans mon beau village : je préférais ce lieu à mille autres lieux. Il s’appelle Ségou Coura.Mon Dieu ! Mais qu’est ce qui m’a pris moi, un jeune homme d’apparence simple, plutôt joyeux pour oser faire ce j’ai fait : je ne suis qu’un inconscient, un petit garçon très têtu qui n’en fait qu’à sa tête. Je sais une chose c’est qu’on peut dire que j’étais…. Mais pourquoi je parle de moi au passé comme si je n’existe plus, vous me direz bien sûr que tu existes puisque tu es en train d’écrire. Mais laissons donc ces plaisanteries là où elles ne servent pas à grand-chose.  Je voulais plutôt dire que je suis du genre à ne me soucier de rien, un peu rêveur, impulsif et un peu  trop même … beaucoup trop curieux, vous verrez même que se sont ces rêves là et cette curiosité qui m’ont conduit à mes pires cauchemars et ont failli me coûter la vie...",
           "site":"En savoir plus"
         }    
+      },
+      {
+        "id": "watcher",
+        "name": "WATCHER : PSTE",
+        "image": "http://localhost:3001/watcher.png",
+        "age": "2019",
+        "nationality": "Fraçais",
+        "biography": "Nous vous proposons dans un moyen de sortir en Famille en évitant de porter atteinte à votre sérénité : Watcher.                         Watcher est un dispositif qui vous permet de garder un œil sur vos enfants lors de vos sorties en grandes surfaces comme au parc d’attraction et autres lieux ludiques attirants beaucoup de monde. Grâce à Watcher vous pouvez savoir où se trouve vos enfants à tout moment en envoyant un simple message au dispositif que portera l’enfant. De son côté il pourra lui aussi vous communiquer sa position en appuyant sur un simple bouton.Avec Watcher Changez votre expérience des sorties en famille",     
+        "carousel": 
+        {
+          "id":"des",
+          "description":"Alors ? je suis sure que voudriez éviter ce genre de situation lorsque vous essayer de prendre du bon temps avec vos enfants. Je suis sure que dans ce genre de moment tout le monde souhaiterais pouvoir les laisser faire ce qu’il veulent de manière autonome sans s’inquieter de savoir comment les retrouver après. Nous vous proposons dans un moyen de sortir en Famille en évitant de porter atteinte à votre sérénité : Watcher.    Watcher est un dispositif qui vous permet de garder un œil sur vos enfants lors de vos sorties en grandes surfaces comme au parc d’attraction et autres lieux ludiques attirants beaucoup de monde. Grâce à Watcher vous pouvez savoir où se trouve vos enfants à tout moment en envoyant un simple message au dispositif que portera l’enfant. De son côté il pourra lui aussi vous communiquer sa position en appuyant sur un simple bouton.Avec Watcher Changez votre expérience des sorties en famille",
+          "site":"En savoir plus",
+          "images":
+          [
+            {
+          "url": "http://localhost:3001/logow.png",
+          "description":"NOTRE LOGO"
+
+            },
+            {
+          "url": "http://localhost:3001/watcher1.png",
+          "description":"CHANGE DES PROBLÈMES COMME CELUI-CI"
+            },
+            {
+              "url": "http://localhost:3001/watcher2.png",
+              "description":"EN SOLUTION COMME ICI"
+            }
+          ]
+        }    
       }
     ]
   },
   {
     "id": "paa",
-    "title": "Plan d'Action Pour l'Afrique",
+    "title": "Africa",
     "image": "http://localhost:3001/Afrique.png",
     "cover": "http://localhost:3001/Afrique.png",
     "description": "L'Afrique est probablement le continent le plus riche en terme de matières premières dans le monde",

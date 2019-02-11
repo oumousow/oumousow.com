@@ -88,10 +88,8 @@
                     </p>
                 
                 </b-card>
-            
             </b-card-group>
         </div>
-
         </div>
     </b-col>
 </b-row>
@@ -101,14 +99,18 @@
 import imageBarinta from '../assets/imageBarinta.jpeg';
 import imageFind from '../assets/imageFind.jpeg';
 import famille from '../assets/famille.jpg';
+import watcher from '../assets/watcher.png';
 
 export default {
   name:'about',
   data () {
     return {
+      slide: 0,
+      sliding: null,  
       imageBarinta:imageBarinta,
       imageFind: imageFind,
       famille:famille,
+      watcher:watcher
     }
   }
 }
