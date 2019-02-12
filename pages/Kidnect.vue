@@ -3,7 +3,7 @@
    
 <div class="content">
 <section id="mysect1">
-<h1>SECTION 1</h1>
+<h1>Kidnect</h1>
 </section>
 <section id="mysect2">
 <h1>SECTION 2</h1>
@@ -56,7 +56,7 @@ export default {
 #op-horizontalnav .op-v-item .op-v-link {color:#fff; padding:16px 8px;display:block;text-decoration:none}
 #op-horizontalnav .op-v-item .op-v-link:hover, #op-horizontalnav .op-v-link.active {background-color:#fff;color:#171717}
 
-section h1 {padding:450px; text-align:center; color:black; background:rgb(236, 226, 226); border-top:1px solid red; margin:0}
+section h1 {padding:450px; text-align:initial ; color:black; background:rgb(236, 226, 226); border-top:1px solid red; margin:0}
 section:nth-child(even) h1 {background:white;} /*on différencie la couleur 1 section sur 2*/
 
 

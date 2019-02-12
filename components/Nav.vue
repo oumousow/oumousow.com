@@ -20,7 +20,7 @@
             to="/accueil">Mon Stage</b-nav-item>
           <b-nav-item 
             right
-            to="/watcher">Projet Pste</b-nav-item>
+            to="/kidnect">Projet Pste</b-nav-item>
           <b-nav-item 
             right
             to="/about">À propos</b-nav-item>
