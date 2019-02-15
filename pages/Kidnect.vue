@@ -3,10 +3,31 @@
    
 <div class="content">
 <section id="mysect1">
-<h1>Kidnect</h1>
+
+ <b-card title=""
+                :img-src="kidnect"
+                img-alt="Img"
+                img-top>
+            <p class="card-text">
+                Nous vous proposons dans un moyen de sortir en Famille en évitant de porter atteinte à votre sérénité :<strong> KIDNECT </strong>. Je suis sure que durant les moments de sorties tout le monde souhaiterait pouvoir laisser les enfants faire ce qu’il veulent de manière autonome sans s’inquieter de savoir comment les retrouver après.
+            <div slot="footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </b-card>
+
 </section>
 <section id="mysect2">
-<h1>SECTION 2</h1>
+    <b-card
+:img-src="watcher0"
+                img-alt="Img"
+                img-top>
+            <p class="card-text">
+                <strong> KIDNECT </strong> est un dispositif qui vous permet de garder un œil sur vos enfants lors de vos sorties en grandes surfaces comme au parc d’attraction et autres lieux ludiques attirants beaucoup de monde. Grâce à Watcher vous pouvez savoir où se trouve vos enfants à tout moment en envoyant un simple message au dispositif que portera l’enfant. De son côté il pourra lui aussi vous communiquer sa position en appuyant sur un simple bouton.Avec KIDNECT Changez votre expérience des sorties en famille </p>
+            <div slot="footer">
+                <small class="text-muted">Last updated 3 mins ago</small>
+            </div>
+        </b-card>
+        
 </section>
 <section id="mysect3">
 <h1>SECTION 3</h1>
@@ -42,9 +63,18 @@
 
 
 <script>
+import kidnect from '../assets/kidnect.png';
+import watcher0 from '../assets/watcher0.png';
+import watcher1 from '../assets/watcher1.png';
 export default {
-  
-
+data () {
+    return {
+      slide: 0,
+      sliding: null,
+      kidnect:kidnect,
+      watcher0:watcher0,
+}
+}
 }
 </script>
 
@@ -70,6 +100,8 @@ section:nth-child(even) h1 {background:white;} /*on différencie la couleur 1 se
 #op-verticalnav .op-v-itemdesc {display:inline-block; font-size:14px; position:absolute; white-space:nowrap; line-height:normal; padding:0 34px 0 0;vertical-align:middle}
 #op-verticalnav .op-v-itemdesc .op-v-itembg{display:inline-block; background-color:rgba(0,0,0,.5); color:#fff; padding:4px 10px 6px 10px; border:1px solid rgba(160,160,160,.2); border-radius:4px; }
 #op-verticalnav .op-v-link:hover .op-v-itemdesc {right:0px; }
-
-
+.card-img-top {
+    width: 60%;
+    margin-left: 250px;
+}
 </style>
